@@ -4,7 +4,7 @@ a.
 - Clone Repository https://github.com/demsyimanm/dot_test
 - Buat DB dengan nama "dot"
 - Buka console di folder yang sudah diclone dan jalankan perintah di console "php artisan migrate"
-- Jalankan perintah "php artisan db:seed"
+- Jalankan perintah "php artisan db:seed" untuk menambahkan seeder untuk tabel User
 
 b. 
 1. Login (POST)
