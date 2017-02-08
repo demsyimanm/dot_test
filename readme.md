@@ -1,3 +1,5 @@
+DOKUMENTASI 
+
 a. 
 - Clone Repository https://github.com/demsyimanm/dot_test
 - Buat DB dengan nama "dot"
