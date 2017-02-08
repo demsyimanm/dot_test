@@ -14,7 +14,24 @@ b.
   - route = "api/get/produk/{token}" 
   - param = 
   
-3. Login (POST)
-  - route = "api/login" 
-  - param = - email (string) 
-            - password (string)
+3. Input Product (POST)
+  - route = "api/post/produk/input/{token}" 
+  - param = - name (string) 
+            - description (string)
+            - stock (int)
+            - image (blob) -> nullable
+            
+4. Update Product (POST)
+  - route = "api/post/produk/update/{id}/{token}" 
+  - param = - name (string) 
+            - description (string)
+            - stock (int)
+            - image (blob) -> nullable
+            
+5. Detail Product (GET)
+  - route = "api/post/produk/detail/{id}/{token}" 
+  - param = 
+  
+6. Delete Product (GET)
+  - route = "api/post/produk/delete/{id}/{token}" 
+  - param = 
