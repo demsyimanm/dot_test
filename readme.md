@@ -8,6 +8,9 @@ a.
 
 b. 
 1. Login (POST)
+  - Data untuk login dari seeder=
+        - email = "demsy@gmail.com"
+        - password = "demsy"
   - route = "api/login" 
   - param = - email (string) 
             - password (string)
